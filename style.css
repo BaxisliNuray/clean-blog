@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 500px;
+  width: 100%;
+  background-image: url(http://acmaps.info.yorku.ca/files/2014/12/Studyingbooks.jpg?x56546);
+}
+ul li {
+  display: flex;
+  float: right;
+}
+li a {
+  list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: white;
+}
+#boot {
+  font-size: xx-large;
+  text-decoration: none;
+  color: white;
+  margin-left: 100px;
+}
+.hero {
+  text-align: center;
+  margin: 100px;
+  color: white;
+  font-size: xx-large;
+}
+span {
+  color: lightgray;
+}
+section {
+  text-align: center;
+  margin: 200px;
+  font-size: larger;
+}
+section:hover {
+  color: skyblue;
+}
+section h1 {
+  font-weight: bolder;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+section p {
+  font-weight: lighter;
+  font-size: 32px;
+}
+.border {
+  border: 1px solid lightgray;
+  margin: 30px;
+}
+
+.first {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+[type="button"] {
+  margin-right: 20px;
+  float: right;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: white;
+  font-weight: 900;
+}
+
+.icon {
+  border: 1px solid light gray;
+  text-align: center;
+  float: left;
+  margin-left: 910px;
+  margin-top: 40px;
+  font-size: large;
+}
+#foot {
+    
+  color: lightgray;
+ 
+}
